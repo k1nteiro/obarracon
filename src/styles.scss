@@ -1,0 +1,29 @@
+
+/*@font-face {
+  font-family: 'Freehand 521 Regular';
+  src: url('../assets/fonts/Freehand_521_Regular.otf') format('opentype');
+  // Ajusta la ruta según la ubicación de tu archivo de fuente
+}*/
+
+html {
+  height: 100%;                    /* Will be used by browsers which ignore both the -moz and -webkit-prefixed declarations or do not support -moz-available or -webkit-fill-available. */
+  height: -moz-available;          /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+}
+
+body { 
+  //font-family: 'Freehand 521 Regular', sans-serif; /* Aplica la fuente a todo el cuerpo del documento */
+
+  height: 100%;                    /* Will be used by browsers which ignore both the -moz and -webkit-prefixed declarations or do not support -moz-available or -webkit-fill-available. */
+  height: -moz-available;          /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  margin: 0;
+}
+
+app-root {
+  height: 100%;                    /* Will be used by browsers which ignore both the -moz and -webkit-prefixed declarations or do not support -moz-available or -webkit-fill-available. */
+  height: -moz-available;          /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  display: flex;
+  flex-direction: column;
+}

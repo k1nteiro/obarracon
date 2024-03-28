@@ -1,0 +1,6 @@
+:host {
+  background-color: transparent;
+  height: 100%;                    /* Will be used by browsers which ignore both the -moz and -webkit-prefixed declarations or do not support -moz-available or -webkit-fill-available. */
+  height: -moz-available;          /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+}

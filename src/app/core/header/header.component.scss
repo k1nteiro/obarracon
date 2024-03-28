@@ -1,0 +1,24 @@
+.banner {
+  background-image: url(/assets/img/praza_igrexa.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  height: calc(100% - 57px);
+  justify-content: center;
+  
+  > .banner-logo {
+    display: flex;
+    height: 100%;                    /* Will be used by browsers which ignore both the -moz and -webkit-prefixed declarations or do not support -moz-available or -webkit-fill-available. */
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    justify-content: center;
+    padding: 10px;
+    
+    > img {
+      border-radius: 4px;
+      height: 100%;                    /* Will be used by browsers which ignore both the -moz and -webkit-prefixed declarations or do not support -moz-available or -webkit-fill-available. */
+      height: -moz-available;          /* WebKit-based browsers will ignore this. */
+      height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+      max-width: 100%;
+    }
+  }
+}
